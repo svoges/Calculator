@@ -7,6 +7,7 @@
 //
 
 #import "SVAppDelegate.h"
+#import "SVViewController.h"
 
 @implementation SVAppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    SVViewController *calculatorVC = [[SVViewController alloc] init];
+    self.window.rootViewController = calculatorVC;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

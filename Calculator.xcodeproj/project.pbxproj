@@ -19,6 +19,8 @@
 		F169CD66196A46C3001DED62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F169CD4E196A46C3001DED62 /* UIKit.framework */; };
 		F169CD6E196A46C3001DED62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F169CD6C196A46C3001DED62 /* InfoPlist.strings */; };
 		F169CD70196A46C3001DED62 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F169CD6F196A46C3001DED62 /* CalculatorTests.m */; };
+		F169CD7C196A4760001DED62 /* SVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F169CD7A196A4760001DED62 /* SVViewController.m */; };
+		F169CD7D196A4760001DED62 /* SVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F169CD7B196A4760001DED62 /* SVViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		F169CD6B196A46C3001DED62 /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		F169CD6D196A46C3001DED62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F169CD6F196A46C3001DED62 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		F169CD79196A4760001DED62 /* SVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVViewController.h; sourceTree = "<group>"; };
+		F169CD7A196A4760001DED62 /* SVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVViewController.m; sourceTree = "<group>"; };
+		F169CD7B196A4760001DED62 /* SVViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				F169CD59196A46C3001DED62 /* SVAppDelegate.h */,
 				F169CD5A196A46C3001DED62 /* SVAppDelegate.m */,
+				F169CD79196A4760001DED62 /* SVViewController.h */,
+				F169CD7A196A4760001DED62 /* SVViewController.m */,
+				F169CD7B196A4760001DED62 /* SVViewController.xib */,
 				F169CD5C196A46C3001DED62 /* Images.xcassets */,
 				F169CD51196A46C3001DED62 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F169CD7D196A4760001DED62 /* SVViewController.xib in Resources */,
 				F169CD55196A46C3001DED62 /* InfoPlist.strings in Resources */,
 				F169CD5D196A46C3001DED62 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F169CD7C196A4760001DED62 /* SVViewController.m in Sources */,
 				F169CD57196A46C3001DED62 /* main.m in Sources */,
 				F169CD5B196A46C3001DED62 /* SVAppDelegate.m in Sources */,
 			);
